@@ -1,0 +1,15 @@
+{ 
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "strict": true,
+    "paths": {
+      "*": ["*", "src/*"]  // Assuming use of aliases
+    }
+  }
+}

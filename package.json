@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "dotenv node ./dist/index.js",
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.7",
+    "canvas": "^2.11.2",
+    "dotenv": "^16.4.5",
+    "hono": "^4.6.12",
+    "pngjs": "^7.0.0",
+    "tesseract.js": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.14",
+    "@types/node": "^20.17.9",
+    "@types/pngjs": "^6.0.5",
+    "dotenv-cli": "^7.4.4",
+    "tsx": "^4.19.2"
+  }
+}
